@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_inicio">AppIlustraciones</string>
+    <string name="app_login">Login</string>
+    <string name="app_registro">Registro</string>
+    <string name="app_informacion">Información</string>
+    <string name="app_ilustraciones">Ilustraciones</string>
+
+    <!-- Etiquetas layout Inicio -->
+    <string name="labelTitulo">Ilustraciones</string>
+    <string name="labelSlogan">Lets go Buy</string>
+    <string name="labelAutor">Por: appIlustraciones</string>
+    <string name="btnIniciar">Iniciar</string>
+
+    <!-- Etiquetas layout Login -->
+    <string name="labelEmail">Email: </string>
+    <string name="labelPassword">Password</string>
+    <string name="labelOlvidoPassword">Olvidó su password?</string>
+    <string name="btnlogin">LOGIN</string>
+    <string name="labelCrearCuenta">Crear una cuenta?</string>
+
+    <!-- Etiquetas layout registro -->
+    <string name="btnRegistrar">REGISTRAR</string>
+    <string name="labelTieneCuenta">Tiene una cuenta?</string>
+
+</resources>

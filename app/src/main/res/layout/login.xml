@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="actividades.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/idLogo"
+            android:layout_width="183dp"
+            android:layout_height="169dp"
+            android:background="@drawable/logo_inicio" />
+
+        <TextView
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/labelTitulo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#212121"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/txtLoginEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="Username"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="384dp"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="right"
+            android:text="@string/labelOlvidoPassword"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="119dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="8dp"
+            android:background="#121211"
+            android:onClick="loginApp"
+            android:text="@string/btnlogin"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="384dp"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="right"
+            android:onClick="crearCuentaApp"
+            android:text="@string/labelCrearCuenta"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
