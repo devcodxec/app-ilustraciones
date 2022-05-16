@@ -1,6 +1,7 @@
 <resources>
     <string name="app_inicio">AppIlustraciones</string>
     <string name="app_login">Login</string>
+    <string name="app_main">Tiendas</string>
     <string name="app_registro">Registro</string>
     <string name="app_informacion">Información</string>
     <string name="app_ilustraciones">Ilustraciones</string>
@@ -19,7 +20,16 @@
     <string name="labelCrearCuenta">Crear una cuenta?</string>
 
     <!-- Etiquetas layout registro -->
+    <string name="labelTituloRegistro">Formulario</string>
     <string name="btnRegistrar">REGISTRAR</string>
     <string name="labelTieneCuenta">Tiene una cuenta?</string>
+
+    <!-- Etiquetas layout main -->
+
+    <!-- Etiquetas layout ilustracion -->
+    <string name="labelCalificar">Calificar: </string>
+    <string name="labelComentario">Comentario: </string>
+    <string name="btnEnviar">Enviar </string>
+
 
 </resources>

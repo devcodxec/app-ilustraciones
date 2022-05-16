@@ -79,7 +79,6 @@
             android:layout_marginRight="24dp"
             android:layout_marginBottom="8dp"
             android:background="#121211"
-            android:onClick="loginApp"
             android:text="@string/btnlogin"
             android:textColor="#FFFFFF" />
 

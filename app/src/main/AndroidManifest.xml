@@ -28,10 +28,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="actividades.MainActivity">
+
+        <!-- Activity para la pantalla de Registro-->
+        <activity
+            android:name="actividades.RegistroActivity"
+            android:label="@string/app_registro" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
+        <!-- Activity para la pantalla Main-->
+        <activity
+            android:name="actividades.MainActivity"
+            android:label="@string/app_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

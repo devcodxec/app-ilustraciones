@@ -5,14 +5,16 @@ import java.io.Serializable;
 public class Tienda implements Serializable {
 
     private Integer Id_Tienda;
+    private String nombre;
     private String descripcion;
     private String direccion;
     private String telefono;
     private String email;
     private String foto;
 
-    public Tienda(Integer id_Tienda, String descripcion, String direccion, String telefono, String email, String foto) {
+    public Tienda(Integer id_Tienda, String nombre, String descripcion, String direccion, String telefono, String email, String foto) {
         Id_Tienda = id_Tienda;
+        this.nombre = nombre;
         this.descripcion = descripcion;
         this.direccion = direccion;
         this.telefono = telefono;
@@ -26,6 +28,14 @@ public class Tienda implements Serializable {
 
     public void setId_Tienda(Integer id_Tienda) {
         Id_Tienda = id_Tienda;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getDescripcion() {
@@ -72,6 +82,7 @@ public class Tienda implements Serializable {
     public String toString() {
         return "Tienda{" +
                 "Id_Tienda=" + Id_Tienda +
+                ", nombre='" + nombre + '\'' +
                 ", descripcion='" + descripcion + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", telefono='" + telefono + '\'' +
